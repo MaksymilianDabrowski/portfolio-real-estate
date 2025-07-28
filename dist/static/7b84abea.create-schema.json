@@ -1,0 +1,19 @@
+[
+  {
+    "fields": [
+      {
+        "name": "title",
+        "type": "string",
+        "title": "Tytuł"
+      },
+      {
+        "name": "image",
+        "type": "image",
+        "title": "Zdjęcie"
+      }
+    ],
+    "name": "galleryImage",
+    "type": "document",
+    "title": "Zdjęcie w Galerii"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "name": "real-estate-website",
+  "version": "0.9.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev & npx next-video sync -w",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.6",
+    "@headlessui/react": "^2.1.0",
+    "framer-motion": "^11.2.12",
+    "lucide-react": "^0.395.0",
+    "next": "^14.2.4",
+    "next-video": "^1.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-headroom": "^3.2.1",
+    "react-hook-form": "^7.52.0",
+    "sharp": "^0.34.3",
+    "yet-another-react-lightbox": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.58.1",
+    "@types/node": "^20",
+    "@types/nodemailer": "^6.4.14",
+    "@types/nodemailer-smtp-transport": "^2.7.8",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-headroom": "^3.2.3",
+    "@types/react-slick": "^0.23.13",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "smtp": "^0.1.4",
+    "tailwindcss": "^3.3.0",
+    "transport": "^0.0.3",
+    "typescript": "^5"
+  }
+}
