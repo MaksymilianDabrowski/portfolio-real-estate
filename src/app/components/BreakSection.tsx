@@ -1,10 +1,11 @@
+import { ReactNode } from "react";
 import Container from "./Container"
 
 interface BreakSectionProps {
     align?: "left" | "center",
     pretitle?: string,
     title?: string,
-    children?: string,
+    children?: ReactNode,
 }
 
 export default function BreakSection({ align, pretitle, title, children }: BreakSectionProps) {
