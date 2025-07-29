@@ -1,5 +1,6 @@
 import { BarChart3, DraftingCompass, Wrench, Clock, FlaskConical, Handshake, Building2, ClipboardCheck, Users } from "lucide-react";
 import photo1 from "../assets/photos/bene1.jpg"
+import photor from "../assets/photos/bene1_resized.jpg"
 import photo2 from "../assets/photos/bene2.jpg"
 import gal1 from "../assets/gallery/gal1.jpg"
 import gal2 from "../assets/gallery/gal2.jpg"
@@ -9,7 +10,7 @@ import gal4 from "../assets/gallery/gal4.jpg"
 const benefitOne = {
   title: "Kompleksowe usługi dla Twojej nieruchomości",
   desc: "Świadczymy pełen zakres usług związanych z zarządzaniem, rozwojem i optymalizacją nieruchomości komercyjnych. Nasze działania koncentrują się na czterech kluczowych filarach:",
-  image: photo1,
+  image: photor,
   bullets: [
     {
       title: "Audyt i optymalizacja zarządzania",
