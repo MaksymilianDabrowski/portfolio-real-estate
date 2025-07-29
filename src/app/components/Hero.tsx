@@ -1,5 +1,6 @@
 import Image from "next/image"
 import hero from "../assets/photos/hero_prop.jpg"
+import hero2 from "../assets/photos/hero_prop_resized.jpg"
 import Container from "./Container"
 import google from "../assets/providers/google.png"
 import amazon from "../assets/providers/amazon.png"
@@ -35,7 +36,7 @@ export default function Hero() {
                         <div className="flex items-center justify-center w-full lg:w-1/2 order-1 lg:order-2 mb-10">
                             <div className="relative w-full" style={{ aspectRatio: '1200 / 800' }}>
                                 <Image
-                                    src={hero}
+                                    src={hero2}
                                     alt="Nowoczesny budynek biurowy o zmierzchu"
                                     fill
                                     priority={true}
