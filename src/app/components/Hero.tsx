@@ -33,14 +33,16 @@ export default function Hero() {
                         </div>
 
                         <div className="flex items-center justify-center w-full lg:w-1/2 order-1 lg:order-2 mb-10">
-                            <Image
-                                src={hero}
-                                priority={true}
-                                width={1200}
-                                height={800}
-                                className={"object-cover rounded-2xl"}
-                                alt="Główne zdjęcie"
-                            />
+                            <div className="relative w-full" style={{ aspectRatio: '1200 / 800' }}>
+                                <Image
+                                    src={hero}
+                                    alt="Nowoczesny budynek biurowy o zmierzchu"
+                                    fill
+                                    priority={true}
+                                    className="object-cover rounded-2xl"
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
+                                />
+                            </div>
                         </div>
                     </div>
                 </Container>
