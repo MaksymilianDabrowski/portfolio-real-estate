@@ -47,7 +47,7 @@ export default function Hero() {
                 <Container>
                     <div className="flex flex-col justify-center">
                         <div className="text-xl text-center text-gray-700 mt-12 mb-2">
-                            Zaufało nam już ponad <span className="text-[#1E1E1F]">100+</span>{" "} firm i przedsiębiorstw
+                            <span className="text-[#1E1E1F]">100+</span> firm rozwija swój biznes w naszych przestrzeniach
                         </div>
 
                         {/* https://www.flaticon.com/free-icons/brands-and-logotypes */}

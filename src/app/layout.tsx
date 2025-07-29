@@ -8,7 +8,7 @@ const cabin = Cabin({ subsets: ["latin"], weight: "400" })
 
 export const metadata: Metadata = {
   title: "RealeEstate - Tam gdzie nasi klienci",
-  description: "Rozwijaj swój biznes w prestiżowej lokalizacji. Wynajmij nowoczesne biuro lub lokal handlowy w Krakowie i zyskaj doskonałą widoczność. Zapraszamy do kontaktu!", // xd 
+  description: "Rozwijaj swój biznes w prestiżowej lokalizacji. Wynajmij nowoczesne biuro lub lokal handlowy w Krakowie i zyskaj doskonałą widoczność. Zapraszamy do kontaktu!",
   icons: {
     icon: '/icon.ico',
   },

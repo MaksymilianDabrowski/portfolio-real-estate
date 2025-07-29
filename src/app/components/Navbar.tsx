@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../assets/logo/logo.png'
-import { Disclosure } from '@headlessui/react'
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import Headroom from "react-headroom"
 import { Menu, X } from "lucide-react"
 
@@ -38,25 +38,20 @@ export default function Navbar() {
                     </span>
                   </Link>
                   {/* Mobile */}
-                  <Disclosure.Button
+                  <DisclosureButton
                     aria-label="Toggle Menu"
                     className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-[#1f1f21] focus:text-[#1f1f21] focus:bg-[#1f1f21]/20">
                     <div
-                      className="w-6 h-6 fill-current"
+                      className="size-6 fill-current"
                     >
-                      {open && (
-                        <X />
-                      )}
-                      {!open && (
-                        <Menu />
-                      )}
+                      {open ? <X /> : <Menu />} {/* testing */}
                     </div>
-                  </Disclosure.Button>
+                  </DisclosureButton>
 
-                  <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
+                  <DisclosurePanel className="flex flex-wrap w-full my-5 lg:hidden">
                     <>
                       {links.map((link, index) => (
-                        <Link key={index} href={link.href} className="w-full font-[550] px-4 py-2 ml-4 text-gray-500 rounded-md hover:text-[#1f1f21] focus:text-[#1f1f21] focus:bg-indigo-100 focus:outline-none"
+                        <Link key={index} href={link.href} className="w-full font-[550] px-4 py-2 ml-4 text-gray-500 rounded-md hover:text-[#1f1f21] focus:text-[#1f1f21] focus:bg-[#1f1f21]/20"
                           onClick={() => close()}>
                           {link.name}
                         </Link>
@@ -66,7 +61,7 @@ export default function Navbar() {
                         Kontakt
                       </Link>
                     </>
-                  </Disclosure.Panel>
+                  </DisclosurePanel>
                 </div>
               </>
             )}

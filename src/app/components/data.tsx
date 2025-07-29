@@ -1,10 +1,10 @@
+import { BarChart3, DraftingCompass, Wrench, Clock, FlaskConical, Handshake, Building2, ClipboardCheck, Users } from "lucide-react";
 import photo1 from "../assets/photos/bene1.jpg"
 import photo2 from "../assets/photos/bene2.jpg"
 import gal1 from "../assets/gallery/gal1.jpg"
 import gal2 from "../assets/gallery/gal2.jpg"
 import gal3 from "../assets/gallery/gal3.jpg"
 import gal4 from "../assets/gallery/gal4.jpg"
-import { BarChart3, DraftingCompass, Wrench, Clock, FlaskConical, Handshake, Building2, ClipboardCheck, Users } from "lucide-react";
 
 const benefitOne = {
   title: "Kompleksowe usługi dla Twojej nieruchomości",
