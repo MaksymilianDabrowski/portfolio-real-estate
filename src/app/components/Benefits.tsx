@@ -23,12 +23,12 @@ interface BenefitsProps {
 
 export default function Benefits({ data, imgPos }: BenefitsProps) {
     return (
-        <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap mt-16">
+        <Container className="flex flex-wrap items-center mb-20 lg:gap-10 lg:flex-nowrap mt-16">
             <div
                 className={`flex items-center justify-center w-full lg:w-1/2 ${imgPos === "right" ? "lg:order-1" : ""
                     }`}
             >
-                <div>
+                <div className="relative aspect-[16/9]">
                     <Image
                         src={data.image}
                         alt={`Zdjęcie ilustracyjne dla ${data.title}`}
@@ -39,7 +39,7 @@ export default function Benefits({ data, imgPos }: BenefitsProps) {
             </div>
 
             <div
-                className={`flex flex-wrap items-center w-full lg:w-1/2 ${imgPos === "right" ? "lg:justify-end" : ""
+                className={`flex items-center justify-center w-full lg:w-1/2 ${imgPos === "right" ? "lg:justify-end" : ""
                     }`}
             >
                 <div>

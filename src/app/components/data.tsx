@@ -1,5 +1,6 @@
 import { BarChart3, DraftingCompass, Wrench, Clock, FlaskConical, Handshake, Building2, ClipboardCheck, Users } from "lucide-react";
 import photo1 from "../assets/photos/bene1.jpg"
+import r from "../assets/photos/bene2_r.jpg"
 import photor from "../assets/photos/bene1_resized.jpg"
 import photo2 from "../assets/photos/bene2.jpg"
 import gal1 from "../assets/gallery/gal1.jpg"
@@ -33,7 +34,7 @@ const benefitOne = {
 const benefitTwo = {
   title: "Nasze Zobowiązanie do Jakości",
   desc: "Jakość to fundament naszej działalności. Zobowiązujemy się do dostarczania najwyższych standardów we wszystkim, co robimy, realizując naszą politykę poprzez:",
-  image: photo2,
+  image: r,
   bullets: [
     {
       title: "Doświadczenie i Terminowość",
